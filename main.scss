@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(to bottom left, #cc00ff 0%, #00ffff 100%);
+    font-family:'Montserrat';
+    height:100vh;
+    margin:0;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    h1 {
+        text-align:center;
+        color:darkslategrey;
+        font-size:29px;
+        margin-top:0;
+    }
+    h2 {
+        font-size:15px;
+    }
+    .container {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height:100vh;
+        width:100vw;
+        #main {
+            width:300px;
+            padding:20px;
+            margin-bottom:20px;
+            background-color:white;
+            border-radius:25px;
+            box-shadow: 0px 0px 80px -15px black;
+            animation: 0.6s ease-out 0s 1 slideInFromTop;
+            .body p, h1, h2 {
+                opacity:1;
+            }
+            #generate {
+                font-family:'Montserrat';
+                font-size:25px;
+                padding:20px;
+                width:100%;
+                border-radius:20px;
+                text-transform:uppercase;
+                letter-spacing:1px;
+                cursor:pointer;
+            }
+        }
+        @keyframes slideInFromTop {
+            0% {
+              opacity:0.6;
+              transform: translateY(-25px);
+            }
+            50% {
+              opacity:0.8;
+              transform: translateY(10px);
+            }
+            100% {
+              opacity:1;
+              transform: translateX(0);
+            }
+          }
+    }
+}
