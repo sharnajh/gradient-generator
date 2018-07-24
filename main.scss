@@ -26,10 +26,19 @@ body {
             margin-bottom:20px;
             background-color:white;
             border-radius:25px;
-            box-shadow: 0px 0px 80px -15px black;
+            box-shadow: 0px 0px 80px -20px black;
             animation: 0.6s ease-out 0s 1 slideInFromTop;
-            .body p, h1, h2 {
-                opacity:1;
+            .body {
+                display:flex;
+                .color {
+                    width:50%;
+                    text-align:center;
+                }
+            }
+            .directions-container {
+                width:100%;
+                display:flex;
+                justify-content: center;
             }
             #generate {
                 font-family:'Montserrat';
@@ -45,7 +54,8 @@ body {
         @keyframes slideInFromTop {
             0% {
               opacity:0.6;
-              transform: translateY(-25px);
+              transform: translateY(-60px);
+              box-shadow:none;
             }
             50% {
               opacity:0.8;
@@ -54,6 +64,7 @@ body {
             100% {
               opacity:1;
               transform: translateX(0);
+              box-shadow: 0px 0px 80px -20px black;
             }
           }
     }
