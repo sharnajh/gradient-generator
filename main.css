@@ -35,6 +35,8 @@ body {
         width: 100%;
         display: flex;
         justify-content: center; }
+        body .container #main .directions-container .direction {
+          cursor: pointer; }
       body .container #main #generate {
         font-family: 'Montserrat';
         font-size: 25px;
@@ -51,7 +53,7 @@ body {
     box-shadow: none; }
   50% {
     opacity: 0.8;
-    transform: translateY(10px); }
+    transform: translateY(20px); }
   100% {
     opacity: 1;
     transform: translateX(0);

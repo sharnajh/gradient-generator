@@ -39,6 +39,9 @@ body {
                 width:100%;
                 display:flex;
                 justify-content: center;
+                .direction {
+                    cursor:pointer;
+                }
             }
             #generate {
                 font-family:'Montserrat';
@@ -59,7 +62,7 @@ body {
             }
             50% {
               opacity:0.8;
-              transform: translateY(10px);
+              transform: translateY(20px);
             }
             100% {
               opacity:1;
