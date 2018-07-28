@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to bottom left, #cc00ff 0%, #00ffff 100%);
+  background: linear-gradient(to left, #cc00ff, #00ffff);
   font-family: 'Montserrat';
   height: 100vh;
   margin: 0;
@@ -31,17 +31,25 @@ body {
         body .container #main .body .color {
           width: 50%;
           text-align: center; }
+      body .container #main #direction-input {
+        text-align: center;
+        margin-bottom: 0; }
       body .container #main .directions-container {
         width: 100%;
         display: flex;
-        justify-content: center; }
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 0; }
         body .container #main .directions-container .direction {
           cursor: pointer;
           border: 1px solid gray;
           border-radius: 5px; }
         body .container #main .directions-container .direction:hover {
-          background-color: #BDE8FF;
+          background-color: #E3EAFF;
           transition: 0.2s; }
+      body .container #main #alert {
+        display: none;
+        text-align: center; }
       body .container #main #generate {
         font-family: 'Montserrat';
         font-size: 25px;
