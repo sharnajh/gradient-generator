@@ -2,17 +2,17 @@ let pickerA = document.getElementById("color-a"),
 pickerB = document.getElementById("color-b")
 let colorA = pickerA.value,
 colorB = pickerB.value;
+let hexTextA = document.getElementById("hexTextA"),
+hexTextB = document.getElementById("hexTextB");
 
-
-document.getElementById("color-a-value").innerHTML = colorA;
-document.getElementById("color-b-value").innerHTML = colorB;
+hexTextA.innerHTML = colorA;
+hexTextB.innerHTML = colorB;
 
 pickerA.addEventListener("input", function() {
-    document.getElementById("color-a-value").innerHTML = colorA;
-    console.log(colorA);
+    hexTextA.innerHTML = pickerA.value;
 }, false);
 
 pickerB.addEventListener("input", function() {
-    document.getElementById("color-b-value").innerHTML = colorB;
-    console.log(colorB);
+    hexTextB.innerHTML = pickerB.value;
 }, false);
+
