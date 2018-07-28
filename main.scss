@@ -26,7 +26,7 @@ body {
             margin-bottom:20px;
             background-color:white;
             border-radius:25px;
-            box-shadow: 0px 0px 80px -20px black;
+            // box-shadow: 0px 0px 80px -20px black;
             animation: 0.6s ease-out 0s 1 slideInFromTop;
             .body {
                 display:flex;
@@ -67,7 +67,7 @@ body {
             100% {
               opacity:1;
               transform: translateX(0);
-              box-shadow: 0px 0px 80px -20px black;
+            //   box-shadow: 0px 0px 80px -20px black;
             }
           }
     }
