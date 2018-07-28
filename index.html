@@ -10,8 +10,8 @@
 </head>
 <body>
     <div class="container">
-   <!--changes background color as you choose color-->
         <div id="main">
+            <div id="wrapper">
                 <h1>Gradient Generator</h1>
             <div class="body">
 
@@ -32,9 +32,10 @@
                     <p id="hexTextB"></p>
 
             </div>
-        </div>
-
-                <div class="directions-container"><p>
+        </div>  
+        <p id="direction-input">left</p>
+                <div class="directions-container">
+                        <p>
                 <button class="direction" value="top">↑</button>
                 <button class="direction" value="right">→</button>
                 <button class="direction" value="left">←</button>
@@ -44,10 +45,12 @@
                 <button class="direction" value="bottom right">↘</button>
                 <button class="direction" value="bottom left">↙</button>
                 </p></div>
-                
+            </div>
+                <p id="alert"></p>
             <button id="generate">generate code</button>
         
-        </div>
+        
+    </div>
     </div>
     
     <script src="scripts.js"></script>
