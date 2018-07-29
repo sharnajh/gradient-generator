@@ -1,10 +1,12 @@
 body {
-  background: linear-gradient(to left, #B149FF, #00ffff);
+  background: linear-gradient(to right, #B149FF, #00ffff);
   font-family: 'Montserrat';
   height: 100vh;
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 1px; }
+  body input[type=range] {
+    width: 100px; }
   body h1 {
     text-align: center;
     color: darkslategrey;
