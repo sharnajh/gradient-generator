@@ -1,2 +1,3 @@
-# gradient-generator
-Creating my own gradient generator
+# Gradient Generator
+
+##A simple and intuitive graphical user interface for generating CSS background gradient codes.
