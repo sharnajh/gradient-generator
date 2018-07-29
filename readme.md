@@ -3,7 +3,7 @@ MVP:
 - As you choose the color, the background gradient is altered [x]
 - You can also pick the direction of the gradient [x]
 - add percentages sliders []
-- Generate button returns HTML code with copy to clipboard button []
+- Generate button returns HTML code with copy to clipboard button [x]
 
 Post-MVP:
 - You can input colors by HEX code
