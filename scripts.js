@@ -33,24 +33,24 @@ for(let i = 0; i < direction.length; i++ ) {
 
 pickerA.addEventListener("input", (event) => {
     hexTextA.innerHTML = pickerA.value;
-    document.body.style = `background: linear-gradient(to ${document.getElementById("direction-input").textContent}, ${hexTextA.innerHTML} ${parseInt(percentageA.value,10)}%, ${hexTextB.innerHTML} ${parseInt(percentageB.value,10)}%)`;
+    document.body.style = `background: linear-gradient(to ${document.getElementById("direction-input").textContent}, ${hexTextA.innerHTML} ${parseInt(percentageA.value,10)}%, ${hexTextB.innerHTML} ${parseInt(percentageB.value,10)}%);`;
 }, false);
 
 pickerB.addEventListener("input", (event) => {
     hexTextB.innerHTML = pickerB.value;
-    document.body.style = `background: linear-gradient(to ${document.getElementById("direction-input").textContent}, ${hexTextA.innerHTML} ${parseInt(percentageA.value,10)}%, ${hexTextB.innerHTML} ${parseInt(percentageB.value,10)}%)`;
+    document.body.style = `background: linear-gradient(to ${document.getElementById("direction-input").textContent}, ${hexTextA.innerHTML} ${parseInt(percentageA.value,10)}%, ${hexTextB.innerHTML} ${parseInt(percentageB.value,10)}%);`;
 }, false);
 
 percentageA.addEventListener("input", (event) => {
-    document.body.style = `background: linear-gradient(to ${document.getElementById("direction-input").textContent}, ${hexTextA.innerHTML} ${parseInt(percentageA.value,10)}%, ${hexTextB.innerHTML} ${parseInt(percentageB.value,10)}%)`;
+    document.body.style = `background: linear-gradient(to ${document.getElementById("direction-input").textContent}, ${hexTextA.innerHTML} ${parseInt(percentageA.value,10)}%, ${hexTextB.innerHTML} ${parseInt(percentageB.value,10)}%);`;
 });
 
 percentageB.addEventListener("input", (event) => {
-    document.body.style = `background: linear-gradient(to ${document.getElementById("direction-input").textContent}, ${hexTextA.innerHTML} ${parseInt(percentageA.value,10)}%, ${hexTextB.innerHTML} ${parseInt(percentageB.value,10)}%)`;
+    document.body.style = `background: linear-gradient(to ${document.getElementById("direction-input").textContent}, ${hexTextA.innerHTML} ${parseInt(percentageA.value,10)}%, ${hexTextB.innerHTML} ${parseInt(percentageB.value,10)}%);`;
 });
 
 generate.addEventListener("click", (event) => {
-    let code = `background: linear-gradient(to ${document.getElementById("direction-input").textContent}, ${hexTextA.innerHTML} ${parseInt(percentageA.value,10)}%, ${hexTextB.innerHTML} ${parseInt(percentageB.value,10)}%)`;
+    let code = `background: linear-gradient(to ${document.getElementById("direction-input").textContent}, ${hexTextA.innerHTML} ${parseInt(percentageA.value,10)}%, ${hexTextB.innerHTML} ${parseInt(percentageB.value,10)}%);`;
     let codeToCopy = document.createElement('textarea');
     codeToCopy.value = code;
     document.body.appendChild(codeToCopy);
