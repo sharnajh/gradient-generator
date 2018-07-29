@@ -4,8 +4,8 @@
 
 ![screenshot](/images/screenshot1.png)
 
-## Add gradients to your website with a simple click of a button!
+### Deployed on
+* [Codepen.io](https://codepen.io/sharnajh/pen/zLPEdj)
+* [Github Pages](https://sharnajh.github.io/gradient-generator/)
 
-![screenshot2](/images/screenshot2.png)
 
-Codepen: [codepend](https://codepen.io/sharnajh/pen/zLPEdj)
