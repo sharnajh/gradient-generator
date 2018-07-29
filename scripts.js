@@ -28,12 +28,12 @@ for(let i = 0; i < direction.length; i++ ) {
 
     pickerA.addEventListener("input", (event) => {
         hexTextA.innerHTML = pickerA.value;
-        document.body.style = `background: linear-gradient(to bottom left, ${hexTextA.innerHTML} 0%, ${hexTextB.innerHTML} 100%)`;
+        document.body.style = `background: linear-gradient(to ${direction[i].value}, ${hexTextA.innerHTML} 0%, ${hexTextB.innerHTML} 100%)`;
     }, false);
     
     pickerB.addEventListener("input", (event) => {
         hexTextB.innerHTML = pickerB.value;
-        document.body.style = `background: linear-gradient(to bottom left, ${hexTextA.innerHTML} 0%, ${hexTextB.innerHTML} 100%)`;
+        document.body.style = `background: linear-gradient(to ${direction[i].value}, ${hexTextA.innerHTML} 0%, ${hexTextB.innerHTML} 100%)`;
     }, false);
 
 };
