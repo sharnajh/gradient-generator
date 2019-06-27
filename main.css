@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to right, #B149FF, #00ffff);
+  background: linear-gradient(to right, rgb(203, 136, 255), #00ffff);
   font-family: 'Montserrat';
   height: 100vh;
   margin: 0;
