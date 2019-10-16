@@ -56,5 +56,6 @@ generate.addEventListener("click", (event) => {
     document.body.appendChild(codeToCopy);
     codeToCopy.select();
     document.execCommand('copy');
+    alert(`The following code has been copied to your clipboard: "${code}"`);
     document.body.removeChild(codeToCopy);
 })
